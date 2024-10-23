@@ -1,0 +1,46 @@
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [03:08<03:08, 188.51s/it]Downloading shards: 100%|██████████| 2/2 [04:11<00:00, 114.85s/it]Downloading shards: 100%|██████████| 2/2 [04:11<00:00, 125.90s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:20<00:20, 20.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 13.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.34s/it]
+Traceback (most recent call last):
+  File "/home/tobias.kalmbach/R-Tuning/training/pararel/run_pararel.py", line 73, in <module>
+    with open(f"../../R-Tuning-data/pararel/{args.dataset}.json",'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../R-Tuning-data/pararel/training_data.json'
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:09<00:00,  4.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:09<00:00,  4.59s/it]
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/tobias.kalmbach/R-Tuning/training/WiCE/run_wice.py", line 104, in <module>
+    with open(f"../../R-Tuning-data/WiCE/{args.dataset}.json",'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../R-Tuning-data/WiCE/wice_train.json'
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.89s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.26s/it]
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/tobias.kalmbach/R-Tuning/training/HotpotQA/run_hotpotqa.py", line 82, in <module>
+    with open(f"../../R-Tuning-data/HotpotQA/{args.dataset}.json",'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../R-Tuning-data/HotpotQA/hotpot_10k.json'
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.92s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.29s/it]
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/tobias.kalmbach/R-Tuning/training/MMLU/run_MMLU.py", line 132, in <module>
+    with open(f"../../R-Tuning-data/MMLU/{args.dataset}.json",'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../R-Tuning-data/MMLU/MMLU_ID_train.json'
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.25s/it]
+/home/tobias.kalmbach/.conda/envs/lmflow/lib/python3.9/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/tobias.kalmbach/R-Tuning/training/FEVER/run_fever.py", line 105, in <module>
+    with open(f"../../R-Tuning-data/FEVER/{args.dataset}.json",'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../R-Tuning-data/FEVER/fever_10k.json'
